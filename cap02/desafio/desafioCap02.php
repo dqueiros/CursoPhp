@@ -25,7 +25,7 @@
   );
 
   $satuday = (date('w') - 6) * -1;
-  $satuday_phrase = $satuday == 0 ? "hoje é sábado" : "faltam " . $satuday . " para sábado.";
+  $satuday_phrase = $satuday == 0 ? "hoje é sábado" : "faltam " . $satuday . " dia(s) para sábado.";
 
   echo "Estamos em " . $month_portuguese[date('M')] . ", hoje é dia " . date("d/m/y") . ", " . $week_portuguese[date('D')] . ", e agora são " . date("H:i:s a") . ", " . $satuday_phrase
 ?>
